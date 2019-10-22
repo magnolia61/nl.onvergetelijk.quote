@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<extension key="nl.onvergetelijk.quote" type="module">
+  <file>quote</file>
+  <name>Onvergetelijke Zomerkampen - Quote</name>
+  <description>Deze extensie maakt activiteiten aan rondom promotie quotes</description>
+  <license>GNU AGPL</license>
+  <maintainer>
+    <author>Richard van Oosterhout</author>
+    <email>info@onvergetelijkezomerkampen.nl</email>
+  </maintainer>
+  <releaseDate>2019-08-30</releaseDate>
+  <version>0.1</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>5.16</ver>
+  </compatibility>
+  <comments>This module extension is specific to the Promotie Custom Field Group</comments>
+</extension>
