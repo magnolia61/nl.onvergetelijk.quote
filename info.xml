@@ -3,16 +3,35 @@
   <file>quote</file>
   <name>Onvergetelijke Zomerkampen - Quote</name>
   <description>Deze extensie maakt activiteiten aan rondom promotie quotes</description>
-  <license>GNU AGPL</license>
+  <license>AGPL-3.0</license>
   <maintainer>
     <author>Richard van Oosterhout</author>
-    <email>info@onvergetelijkezomerkampen.nl</email>
+    <email>info@onvergetelij.nl</email>
   </maintainer>
-  <releaseDate>2019-08-30</releaseDate>
-  <version>0.1</version>
-  <develStage>alpha</develStage>
+  <urls>
+    <url desc="Main Extension Page">https://www.onvergetelijk.nl</url>
+    <url desc="Documentation">https://www.onvergetelijk.nl</url>
+    <url desc="Support">https://www.onvergetelijk.nl</url>
+    <url desc="Licensing">https://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2026-03-06</releaseDate>
+  <version>1.0.0</version>
+  <develStage>stable</develStage>
   <compatibility>
-    <ver>5.16</ver>
+    <ver>5.27</ver>
   </compatibility>
-  <comments>This module extension is specific to the Promotie Custom Field Group</comments>
+  <comments>This module extension is specific to the Promotie Custom Field Group (150)</comments>
+  <classloader>
+    <psr0 prefix="CRM_" path="."/>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
+  <civix>
+    <namespace>CRM/Quote</namespace>
+    <format>25.01.1</format>
+  </civix>
+  <mixins>
+    <mixin>mgd-php@1.0.0</mixin>
+    <mixin>setting-php@1.0.0</mixin>
+    <mixin>smarty-v2@1.0.3</mixin>
+  </mixins>
 </extension>
